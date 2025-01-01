@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Matemasie", sans-serif;
+
+}
+html{
+    background-color: rgb(255, 124, 124);
+}
+#container{
+    max-width: 900px;
+    margin: 200px auto;
+    
+}
+#container h1{
+    font-size: 70px;
+    color: rgb(186, 186, 0);
+
+}
+#question{
+    font-size: 40px;
+    color: rgb(10, 144, 0);
+}
+#punchLine{
+    font-size: 40px;
+    color: rgb(0, 133, 138);
+}
+button{
+    display: inline-block;
+    margin: 0 auto;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(118, 118, 255);
+    border: none;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: rgb(96, 96, 255);
+}
+button:active{
+    background-color: rgb(71, 71, 253);
+}
+#copy{
+    display: inline;
+    vertical-align: bottom;
+    text-align: center;
+}
